@@ -1,0 +1,100 @@
+{
+  "books": [
+    {
+      "id": 12,
+      "name": "Big Whale",
+      "rating": 78
+    },
+    {
+      "id": 13,
+      "name": "Pinockio",
+      "rating": 65
+    },
+    {
+      "id": 14,
+      "name": "Karma",
+      "rating": 54
+    },
+    {
+      "name": "Anaconda",
+      "rating": 100,
+      "id": 16
+    },
+    {
+      "name": "easy trip",
+      "rating": 56,
+      "id": 17
+    },
+    {
+      "name": "Dog",
+      "rating": 223,
+      "id": 19
+    },
+    {
+      "name": "Little mouse",
+      "rating": 86,
+      "id": 20
+    },
+    {
+      "name": "Little mouse",
+      "rating": 86,
+      "id": 21
+    },
+    {
+      "name": "Little mouse",
+      "rating": 86,
+      "id": 22
+    },
+    {
+      "name": "big family",
+      "rating": 100,
+      "id": 23
+    },
+    {
+      "name": "Little mouse",
+      "rating": 86,
+      "id": 24
+    },
+    {
+      "name": "big family",
+      "rating": 100,
+      "id": 25
+    },
+    {
+      "name": "Little mouse",
+      "rating": 86,
+      "id": 26
+    },
+    {
+      "name": "big family",
+      "rating": 100,
+      "id": 27
+    },
+    {
+      "name": "Little mouse",
+      "rating": 86,
+      "id": 28
+    },
+    {
+      "name": "big family",
+      "rating": 100,
+      "id": 29
+    },
+    {
+      "name": "Little mouse",
+      "rating": 86,
+      "id": 30
+    },
+    {
+      "name": "big family",
+      "rating": 100,
+      "id": 31
+    },
+    {
+      "name": "Little mouse",
+      "rating": 86,
+      "id": 32
+    }
+  ],
+  "users": []
+}
