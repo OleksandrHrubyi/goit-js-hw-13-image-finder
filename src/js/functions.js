@@ -7,6 +7,7 @@ import "@pnotify/core/dist/BrightTheme.css";
 import * as Confirm from "@pnotify/confirm";
 import "@pnotify/confirm/dist/PNotifyConfirm.css";
 import { galary, input } from './refs';
+import { intersection } from 'lodash';
 const basicLightbox = require('basiclightbox');
 const picturesApiService = new PicturesApiService();
 const perPage = 28;
@@ -33,6 +34,8 @@ export const observer = new IntersectionObserver(function (entries) {
        
     });
 }, option);
+
+
 
 
 
