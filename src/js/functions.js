@@ -45,7 +45,7 @@ export const observer = new IntersectionObserver(function (entries) {
 const onSearch = function (event) {
     event.preventDefault();
     picturesApiService.query = event.currentTarget.query.value;
-    console.log(event)
+    
     if (picturesApiService.query === '') {
         errorWrongName()
         return
@@ -60,12 +60,7 @@ const onSearch = function (event) {
             noPictures()
             return
         }
-        
-        
-
-        console.log(pictures)
-       renderPictures(pictures);
-      
+        renderPictures(pictures);
     })
     
 };
