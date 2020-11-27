@@ -115,6 +115,7 @@ const onClickList = function (event) {
 const errorWrongName = function () {
     error({
         text: "Please enter what you want to find.",
+        delay: 2500,
         
         modules: new Map([
             [
@@ -145,6 +146,7 @@ const errorWrongName = function () {
     error({
         text:
             "Sorry, it was the last page.",
+        delay: 2500,
         modules: new Map([
             [
                 Confirm,
@@ -172,6 +174,7 @@ const noPictures = function () {
     error({
         text:
             "Sorry, we cant find any pictures.",
+        delay: 2500,
         modules: new Map([
             [
                 Confirm,
