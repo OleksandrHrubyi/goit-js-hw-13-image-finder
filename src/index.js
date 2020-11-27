@@ -1,6 +1,8 @@
 import './styles.css';
-import { onSearch, clearInputValue, onClickList } from './js/functions';
+import { onSearch, clearInputValue} from './js/renderPage_functions';
+import { onClickList } from './js/lightBox_template';
 import { searchForm, btnClear, galaryList } from './js/refs';
+
 
 
 

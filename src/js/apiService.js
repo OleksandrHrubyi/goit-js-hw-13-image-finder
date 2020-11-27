@@ -1,8 +1,5 @@
 const BASE_URL = 'https://pixabay.com/api/';
 const API_KEY = "19172745-dc53377293ec5b56fbdc242bd";
-import {observer, errorNoMorePictures} from './functions'
- 
-
 
 export default class PicturesApiService {
 
@@ -11,16 +8,17 @@ export default class PicturesApiService {
         this.page = 1;
      }
     fetchPict() {
-        return fetch(`${BASE_URL}/?image_type=photo&orientation=horizontal&q=${this.searchQuery}&page=${this.page}&per_page=28&key=${API_KEY}` )
+        try {
+             return fetch(`${BASE_URL}/?image_type=photo&orientation=horizontal&q=${this.searchQuery}&page=${this.page}&per_page=28&key=${API_KEY}` )
             .then(pictures => pictures.json()).then(({ hits }) => {
                 this.page += 1;
                 return hits
             })
-            // .catch((er) => {
-            //     observer.disconnect();
-            //     errorNoMorePictures();
-            // })
-        
+        }
+        catch (er){
+            console.log(er)
+        }
+       
     }
 
     resetPage() {
