@@ -3,7 +3,7 @@ import remarkup from '../handlTamplate/list.hbs';
 import PicturesApiService from './apiService'
 import { galary, input } from './refs';
 import { observer } from './observer';
-import { noPictures, errorWrongName } from './pnotify_tamplate';
+import { noPictures, errorWrongName } from './pnotifyTamplate';
 
 export const picturesApiService = new PicturesApiService();
 

@@ -1,5 +1,5 @@
-import { picturesApiService, renderPictures } from './renderPage_functions';
-import { errorNoMorePictures} from './pnotify_tamplate'
+import { picturesApiService, renderPictures } from './renderPageFunctions';
+import { errorNoMorePictures } from './pnotifyTamplate';
 import { input } from './refs';
 
 
